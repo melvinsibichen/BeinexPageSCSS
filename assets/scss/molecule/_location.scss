@@ -1,0 +1,32 @@
+.location {
+    background: $color4;
+
+    width: $spacer-300;
+    height: $spacer-250;
+    padding: $spacer-4;
+    margin: $spacer-4;
+
+
+    &__h3 {
+        color: $color5;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+
+    }
+
+    &__p {
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+    }
+
+}

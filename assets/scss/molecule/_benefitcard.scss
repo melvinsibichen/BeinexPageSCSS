@@ -1,0 +1,27 @@
+.benefitcard {
+
+
+    &__img {
+        width:$spacer-3;
+        height:$spacer-3;
+        flex-shrink: 0;
+    }
+
+    &__h5 {
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-8;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__p {
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

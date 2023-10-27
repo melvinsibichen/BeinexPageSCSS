@@ -1,0 +1,166 @@
+.intake {
+
+    border: 1px solid $color5;
+    background: $color9;
+    padding-top: $spacer-1;
+
+    &__p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: $spacer-53;
+        text-transform: uppercase;
+        padding-left: 30px;
+    }
+
+    &__h2 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        padding-left: 30px;
+    }
+
+    &__pr {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+        margin-left: $spacer-300;
+        margin-top: -70px;
+        margin-right: 30px;
+    }
+
+    &__left {
+        padding: $spacer-5;
+    }
+
+    &__right {
+        padding: $spacer-5;
+    }
+
+    &__card1p1 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+    }
+
+    &__card1p2 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__right-first {
+        padding: $spacer-4;
+    }
+
+    &__cardright-p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__right-bg {
+        background: $color10;
+        padding: $spacer-5;
+    }
+
+    &__btn {
+        background: $color11;
+        margin-top: $spacer-4;
+        margin-left: $spacer-13;
+    }
+    
+    &__cardright-title {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-8;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    &__right-fourcard {
+        padding: $spacer-4;
+    }
+
+    &__card-bg {
+        background: $color10;
+        opacity: 0.2;
+
+     
+
+    }
+
+
+
+
+
+    &__card {
+        background: $color9;
+        border: 1px solid $color5;
+
+    }
+
+    &__fourcard-title {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-8;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    &__fourcard-p1 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.5;
+
+    }
+
+    &__fourcard-p2 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+
+
+
+
+}
+
+
+@include mobile {}
+
+@include tablet {}

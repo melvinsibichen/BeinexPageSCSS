@@ -1,0 +1,44 @@
+.testimonialcard {
+
+   
+
+    &__card {
+        width: 100%;
+    }
+
+    &__nndm {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__cardp {
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__cardbtn {
+        color: $color8;
+        text-align: right;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    &__cardtitle {
+        color: $color1;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+}

@@ -1,0 +1,280 @@
+.academy {
+
+
+    &__h6 {
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: $spacer-53;
+        text-transform: uppercase;
+        padding-top: $spacer-9;
+        padding-left: $spacer-5;
+    }
+
+    &__h3 {
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        padding-bottom: $spacer-9;
+        padding-left: $spacer-5;
+    }
+
+    &__card {
+
+        padding: $spacer-5;
+    }
+
+
+    &__img {
+        align-items: center;
+        margin-bottom: $spacer-4;
+
+
+    }
+
+    &__imgt {
+
+        margin-top: -100px;
+        padding-top: 0px;
+
+
+    }
+
+
+    &__h4 {
+
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-8;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: $spacer-5;
+    }
+
+    &__p {
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: $spacer-175;
+    }
+
+    &__pl {
+        color: $color3;
+        text-align: center;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+
+@include mobile {
+
+    .academy {
+        display: block;
+        align-items: center;
+
+
+
+
+        &__h6 {
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-22;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: $spacer-53;
+            text-transform: uppercase;
+            padding-top: $spacer-9;
+            padding-left: $spacer-5;
+            align-items: center;
+        }
+
+        &__h3 {
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-1;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+            padding-bottom: $spacer-9;
+            padding-left: $spacer-5;
+            
+        }
+
+        &__card {
+
+            padding: $spacer-5;
+        }
+
+
+        &__img {
+            align-items: center;
+            margin-bottom: $spacer-4;
+
+
+
+        }
+
+
+
+        &__absorption {
+            width: 50%;
+
+
+
+        }
+
+
+        &__h4 {
+
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-8;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: $spacer-5;
+
+        }
+
+
+        &__p {
+            color: $color2;
+            font-family: Poppins;
+            font-size: $spacer-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: $spacer-175;
+
+        }
+
+        &__pl {
+            color: $color3;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+
+
+
+
+}
+
+@include tablet {
+
+    .academy {
+        display: block;
+        align-items: center;
+
+
+
+
+        &__h6 {
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-34;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: $spacer-53;
+            text-transform: uppercase;
+            padding-top: $spacer-9;
+            padding-left: $spacer-5;
+            text-align: center;
+        }
+
+        &__h3 {
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-25;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+            padding-bottom: $spacer-9;
+            padding-left: $spacer-5;
+            text-align: left;
+        }
+
+        
+
+
+        &__img {
+            align-items: center;
+            margin-bottom: $spacer-4;
+
+
+
+        }
+
+
+
+        &__absorption {
+            width: 30%;
+
+
+
+        }
+
+
+        &__h4 {
+
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-8;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding-top: $spacer-5;
+
+        }
+
+
+        &__p {
+            color: $color2;
+            font-family: Poppins;
+            font-size: $spacer-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            width: $spacer-175;
+
+        }
+
+        &__pl {
+            color: $color3;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-16;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+
+
+
+}

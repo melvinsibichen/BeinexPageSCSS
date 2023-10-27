@@ -1,0 +1,93 @@
+.kform {
+    background-color: $color12;
+    width: 100%;
+    margin: $spacer-9 auto;
+}
+
+.contact-box {
+    background-color: $color13;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px $spacer-13;
+    background: $color3;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: $spacer-6;
+    background:$color3;
+    color: $color5;
+}
+
+.h1 {
+    margin-bottom: $spacer-6;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $spacer-5;
+    
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+      border: 1px solid $color14;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $color15;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid $color14;
+    padding: $spacer-7;
+
+}
+
+.intake__btn {
+    background: $color11;
+    margin-top: $spacer-4;
+    margin-left: 0px;
+    border: none;
+
+
+}
+
+.contact-left h2 {
+    margin-bottom: $spacer-9;
+    color: $color1;
+    font-family: Poppins;
+    font-size: $spacer-28;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact-right h3 {
+    color: $color1;
+    font-family: Poppins;
+    font-size: $spacer-28;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact-right p {
+    color: $color5;
+    font-family: Poppins;
+    font-size: $spacer-16;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}

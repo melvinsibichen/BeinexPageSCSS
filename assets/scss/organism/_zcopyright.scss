@@ -1,0 +1,59 @@
+.copyright {
+
+    background: $color-7;
+    color: $color3;
+    font-family: Poppins;
+    font-size: $spacer-14;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+    padding-top: $spacer-5;
+    padding-bottom: $spacer-9;
+
+
+    &__first {
+        display: flex;
+        justify-content: space-evenly;
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__img {
+        padding-top: $spacer-5;
+
+    }
+
+    &__p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.6;
+
+        padding-top: $spacer-5;
+
+    }
+
+}
+
+@include mobile{
+
+   
+
+    
+
+}
+
+@include tablet{
+   
+
+}

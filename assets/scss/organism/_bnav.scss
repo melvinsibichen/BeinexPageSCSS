@@ -1,0 +1,39 @@
+.bnav {
+    background-color: $color3;
+
+
+
+    &__left {
+        padding-top: $spacer-1;
+
+    }
+
+    &__left__img {
+        padding-top: $spacer-4;
+        padding-left: $spacer-6;
+        margin-right: inherit;
+    }
+
+    &__items {
+        justify-content: start;
+
+    }
+
+
+    &__items a {
+
+
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+
+    }
+}
+
+@include mobile {}
+
+@include tablet {}

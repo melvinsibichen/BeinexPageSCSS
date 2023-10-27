@@ -1,0 +1,187 @@
+.evalues {
+
+
+    &__container {
+        padding-left: $spacer-6;
+
+    }
+
+    &__col {
+        padding-left: $spacer-6;
+    }
+
+
+    &__h3 {
+
+
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: $spacer-9;
+    }
+
+    &__pt {
+        color: $color3;
+        font-family: Poppins;
+        padding-bottom: $spacer-5;
+
+    }
+
+    &__p {
+        color: $color3;
+        text-align: center;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        margin-left: -40px;
+
+
+
+    }
+
+    &__col {
+        color: $color3;
+    }
+
+    &__imgr {
+        width: 400px;
+        height: auto;
+    }
+
+}
+
+@include mobile {
+
+
+    .evalues {
+
+
+        &__container {
+            padding-left: $spacer-6;
+
+        }
+
+        &__col {
+            padding-left: $spacer-6;
+        }
+
+
+        &__h3 {
+
+
+            color: $color3;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: $spacer-9;
+        }
+
+        &__pt {
+            color: $color3;
+            font-family: Poppins;
+            padding-bottom: $spacer-5;
+
+        }
+
+        &__p {
+            color: $color3;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-14;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            margin-left: -40px;
+
+
+
+        }
+
+        &__col {
+            color: $color3;
+        }
+
+        &__imgr {
+            width: 365px;
+            height: auto;
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@include tablet {
+
+    .evalues {
+
+
+        &__container {
+            padding-left: $spacer-6;
+
+        }
+
+        &__col {
+            padding-left: $spacer-6;
+        }
+
+
+        &__h3 {
+
+
+            color: $color3;
+            font-family: Poppins;
+            font-size: $spacer-28;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: $spacer-9;
+        }
+
+        &__pt {
+            color: $color3;
+            font-family: Poppins;
+            padding-bottom: $spacer-5;
+
+        }
+
+        &__p {
+            color: $color3;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-14;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            margin-left: -29px;
+            padding-bottom: 20px;
+
+
+
+        }
+
+        &__col {
+            color: $color3;
+        }
+
+        &__imgr {
+            width: 365px;
+            height: auto;
+        }
+
+    }
+}

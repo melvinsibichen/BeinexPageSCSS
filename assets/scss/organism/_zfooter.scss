@@ -1,0 +1,52 @@
+.footer {
+    background: linear-gradient(72deg, #23133F 9.81%, #08205C 50.72%, #01326A 93.38%);
+    color: $color3;
+    padding-top: 70px;
+    padding-bottom: $spacer-9;
+
+    &__img {
+        padding-bottom: $spacer-5;
+    }
+
+    &__p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__indus {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@include mobile {
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
+@include tablet {
+
+    .footer{
+        text-align: center;
+    }
+}

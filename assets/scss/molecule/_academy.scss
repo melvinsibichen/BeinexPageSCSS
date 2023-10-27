@@ -1,0 +1,30 @@
+.academy {
+    
+
+    &__img {
+        width: 46.675px;
+        height: 36.768px;
+        flex-shrink: 0;
+    }
+
+    &__h4 {
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-8;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    &__p {
+
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: $spacer-5;
+    }
+}

@@ -1,0 +1,46 @@
+.vision {
+
+
+
+    &__content {
+        padding-left: 70px;
+        padding-top: $spacer-13;
+        padding: $spacer-5;
+        padding-bottom: $spacer-5;
+    }
+
+
+    &__h2 {
+        color:$color3;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: $spacer-52; 
+
+    }
+
+    &__p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+
+@include mobile {
+    .vision{
+        width: 100%;
+    }
+   
+}
+
+
+
+@include tablet {
+
+    
+}

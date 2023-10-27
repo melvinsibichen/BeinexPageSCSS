@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    background-color: $color3;
+    height: $spacer-5;
+ 
+
+    &__left {
+        padding-right: $spacer-1;
+        padding-left: $spacer-9;
+
+
+    }
+
+    &__left__img {
+        padding: $spacer-4;
+    }
+
+
+    &__left__p {
+        padding-left: 102px;
+        margin-top:$spacer-19;
+        padding: $spacer-4;
+    }
+
+    &__right {
+        display: flex;
+        padding-right: $spacer-13;
+        padding-left: $spacer-13;
+    }
+
+    &__right__img {
+        width: $spacer-7;
+        height:$spacer-3;
+        flex-shrink: 0;
+    }
+
+    &__right__p {
+        padding: $spacer-4;
+        color: $color2;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__right__btn {
+        background: $color1;
+        color: $color3;
+        padding: 0px 20px;
+        height: 5vh;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+
+
+}
+
+
+@include mobile{
+
+    .header{
+        width: 100%;
+        height: $spacer-20;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__right__btn{
+            padding: 3px 10px;
+        }
+
+    }
+
+    
+
+}
+
+@include tablet{
+    .header{
+        width: 100%;
+        height: $spacer-20;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__right__btn{
+            display: inline-flex;
+            padding: 3px 10px;
+            flex-wrap: nowrap;
+        }
+    }
+
+}

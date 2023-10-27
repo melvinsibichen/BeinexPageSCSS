@@ -1,0 +1,127 @@
+.testimonial {
+
+    padding-bottom: $spacer-1;
+
+
+    &__h2 {
+
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        text-align: center;
+        padding-top: $spacer-1;
+        padding-bottom: $spacer-2;
+
+    }
+
+    &__p {
+        color: $color2;
+        text-align: center;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        text-align: center;
+        padding-bottom: 20px;
+
+
+      
+      
+           
+
+    }
+}
+
+
+
+
+
+@include mobile{
+
+    .testimonial {
+
+        padding-bottom: $spacer-1;
+    
+    
+        &__h2 {
+    
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-28;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+            text-align: center;
+            padding-top: $spacer-1;
+            padding-bottom: $spacer-2;
+    
+        }
+    
+        &__p {
+            color: $color2;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-14;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            text-align: center;
+            padding-bottom: 20px;
+    
+    
+          
+          
+               
+    
+        }
+    }
+    
+}
+@include tablet {
+
+    .testimonial {
+       
+        padding-bottom: $spacer-1;
+    
+    
+        &__h2 {
+    
+            color: $color1;
+            font-family: Poppins;
+            font-size: $spacer-28;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: capitalize;
+            text-align: center;
+            padding-top: $spacer-1;
+            padding-bottom: $spacer-2;
+    
+        }
+    
+        &__p {
+            color: $color2;
+            text-align: center;
+            font-family: Poppins;
+            font-size: $spacer-14;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            text-align: center;
+            padding-bottom: 20px;
+    
+    
+          
+          
+               
+    
+        }
+    }
+    
+}

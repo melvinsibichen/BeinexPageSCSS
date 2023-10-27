@@ -1,0 +1,108 @@
+.course {
+    padding-bottom: 30px;
+
+    background: $color6;
+
+    &__pl {
+
+        color: $color1;
+        text-align: center;
+        font-family: Poppins;
+        font-size: $spacer-16;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    &__h3 {
+
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+        padding-bottom: $spacer-9;
+
+    }
+
+    &__p {
+        color: $color1;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: $spacer-53;
+        text-transform: uppercase;
+        padding-top: $spacer-9;
+    }
+
+    &__left {
+        padding-left: $spacer-6;
+    }
+
+    &__imgl {
+        padding-bottom: $spacer-4;
+        padding-left: 68px;
+    }
+
+    &__right{
+        padding-left: 35px;
+
+       
+    }
+
+    &__right__r1 {
+
+        margin-left: -470px;
+        margin-bottom: -113px;
+
+    }
+
+    &__right__r2 {
+
+        margin-left: -46px;
+    margin-top: -164px;
+    }
+
+    &__right__r3{
+
+        margin-top: -309px;
+    margin-left: 107px;
+
+    }
+
+    &__right__r4{
+        margin-top: -169px;
+        margin-left: 94px;
+
+    }
+
+
+
+    &__right__r5{
+        margin-bottom: -120px;
+       
+        margin-left:$spacer-19;
+
+    }
+
+
+
+}
+
+@include mobile{
+
+   
+
+    
+
+}
+
+@include tablet{
+   
+
+}

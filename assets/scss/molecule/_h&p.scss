@@ -1,0 +1,28 @@
+.handp{
+
+    &__p {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-14;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: $spacer-53;
+        text-transform: uppercase;
+    
+    }
+    
+    &__h3 {
+        color: $color3;
+        font-family: Poppins;
+        font-size: $spacer-28;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    
+    
+    }
+
+}
+

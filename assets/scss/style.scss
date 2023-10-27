@@ -1,0 +1,39 @@
+//base
+
+@import './base/base';
+@import './base/color';
+@import './base/mixin';
+@import './base/spacer';
+
+//atom
+@import './atom/intakebtn';
+
+
+//molecule
+@import './molecule/academy';
+@import './molecule/benefitcard';
+@import './molecule/h&p';
+@import './molecule/intakecard';
+@import './molecule/location';
+@import './molecule/testimonialcard';
+
+
+
+//organism
+@import './organism/aheader';
+@import './organism/bnav';
+@import './organism/cvision';
+@import './organism/dacademy';
+@import './organism/evalues';
+@import './organism/ftestimonial';
+@import './organism/gbenefits';
+@import './organism/hbenefitcards';
+@import './organism/icourse';
+@import './organism/jintakes';
+@import './organism/kform';
+@import './organism/locations';
+@import './organism/zfooter';
+@import './organism/zcopyright';
+
+
+
